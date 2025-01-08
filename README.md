@@ -16,6 +16,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [383. Ransom Note](https://github.com/Elianfm/LeetCode/tree/main/src/383.%20Ransom%20Note)
 
 ## Intervals
+- [228. Summary Ranges](https://github.com/Elianfm/LeetCode/tree/main/src/228.%20Summary%20Ranges)
 
 ## Stack
 
