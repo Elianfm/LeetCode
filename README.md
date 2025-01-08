@@ -1,20 +1,19 @@
-This is my personal repository to store my progression over LeetCode problems.
+This is my personal repository for storing my progress on LeetCode problems.
 
 # List of solved problems
-
 ## Array/String
-- [88. Merge Sorted Array]('src\88. Merge Sorted Array')
-- [27. Remove Element]('src\27. Remove Element')
+- [88. Merge Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/88.%20Merge%20Sorted%20Array)
+- [27. Remove Element](https://github.com/Elianfm/LeetCode/tree/main/src/27.%20Remove%20Element)
 
 ## Two Pointers
-- [125. Valid Palindrome]('src\125. Valid Palindrome')
+- [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
 
 ## Sliding Window
 
 ## Matrix
 
 ## Hashmap
-- [383. Ransom Note]('src\383. Ransom Note')
+- [383. Ransom Note](https://github.com/Elianfm/LeetCode/tree/main/src/383.%20Ransom%20Note)
 
 ## Intervals
 
