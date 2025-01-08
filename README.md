@@ -1,7 +1,6 @@
 This is my personal repository to store my progression over LeetCode problems.
 
 # List of solved problems
-https://github.com/Elianfm/LeetCode/tree/main/src/27.%20Remove%20Element
 ## Array/String
 - [88. Merge Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/88.%20Merge%20Sorted%20Array)
 - [27. Remove Element](https://github.com/Elianfm/LeetCode/tree/main/src/27.%20Remove%20Element)
