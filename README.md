@@ -1,4 +1,4 @@
-This is my personal repository to store my progression over LeetCode problems.
+This is my personal repository for storing my progress on LeetCode problems.
 
 # List of solved problems
 ## Array/String
