@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class TreeNode {
     int val;
     TreeNode left;
@@ -17,8 +20,46 @@ class TreeNode {
     }
 }
 
-/* IN PROCESS */
+
+/* PENDING try to solve it in a BFS way */
 public class AverageOfLevelsInBinaryTree {
+/*
+ * SECOND TRY,  this time i solved it in a DFS way with recursion
+ * RUNTIME 1ms, Beats 99.89% (2ms beats 95.89% with System.gc())
+ * MEMORY 45.95mb, Beats 22.27% (44.12mb beats 100.00% with System.gc())
+ */
+
+    // first is sum, second is # of nodes
+    List<long[]> preAvg = new ArrayList<>();
+    int maxLevel = 0;
+
+    public List<Double> averageOfLevels(TreeNode root) {
+        List<Double> avgs = new ArrayList<>();
+        recurse(root, 0);
+
+        for (long[] sumAvg : preAvg) {
+            avgs.add((double) sumAvg[0] / sumAvg[1]);
+        }
+
+        //System.gc(); 
+        return avgs;
+    }
+
+    private void recurse(TreeNode root, int level) {
+        if (root == null) return;
+        if (level > maxLevel) maxLevel = level;
+
+        if (level == preAvg.size()) {
+            preAvg.add(new long[] { root.val, 1 });
+        } else {
+            preAvg.get(level)[0] += root.val;
+            preAvg.get(level)[1] ++;
+        }
+
+        recurse(root.left, level + 1);
+        recurse(root.right, level + 1);
+    }
+
 
 }
 

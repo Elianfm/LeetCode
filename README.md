@@ -31,6 +31,10 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
 
 ## Binary Search Tree
+- [530. Minimum Absolute Difference in BST](https://github.com/Elianfm/LeetCode/tree/main/src/530.%20Minimum%20Absolute%20Difference%20in%20BST)
+- [783. Minimum Distance Beetween BST Nodes](https://github.com/Elianfm/LeetCode/tree/main/src/783.%20Minimum%20Distance%20Between%20BST%20Nodes)
+
+
 
 ## Graph General
 
@@ -41,10 +45,13 @@ This is my personal repository for storing my progress on LeetCode problems.
 ## Backtracking
 
 ## Divide & Conquer
+- [108. Convert Sorted Array to Binary Search Tree](https://github.com/Elianfm/LeetCode/tree/main/src/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree)
+
 
 ## Kadane's Algorithm
 
 ## Binary Search 
+- [35. Search Insert Position](https://github.com/Elianfm/LeetCode/tree/main/src/35.%20Search%20Insert%20Position)
 
 ## Heap
 
