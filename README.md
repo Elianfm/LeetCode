@@ -56,9 +56,13 @@ This is my personal repository for storing my progress on LeetCode problems.
 ## Heap
 
 ## Bit Manipulation
+- [67. Add Binary](https://github.com/Elianfm/LeetCode/tree/main/src/67.%20Add%20Binary)
 
 ## Math
+- [9. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/9.%20Palindrome%20Number)
 
 ## 1D DP
+- [70. Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/srcsrc/70.%20Climbing%20Stairs)
+
 
 ## Multidimensional DP
