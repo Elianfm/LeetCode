@@ -3,14 +3,19 @@ This is my personal repository for storing my progress on LeetCode problems.
 # List of solved problems
 ## Array/String
 - [88. Merge Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/88.%20Merge%20Sorted%20Array)
+- [26. Remove Duplicates from Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 - [27. Remove Element](https://github.com/Elianfm/LeetCode/tree/main/src/27.%20Remove%20Element)
+- [80. Remove Duplicates from Sorted Array II](https://github.com/Elianfm/LeetCode/tree/main/src/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
+- [392. Is Subsequence](https://github.com/Elianfm/LeetCode/tree/main/src/392.%20Is%20Subsequence)
 
 ## Sliding Window
+- [209. Minimum Size Subarray Sum](https://github.com/Elianfm/LeetCode/tree/main/src/209.%20Minimum%20Size%20Subarray%20Sum)
 
 ## Matrix
+- [36. Valid Sudoku](https://github.com/Elianfm/LeetCode/tree/main/src/36.%20Valid%20Sudoku)
 
 ## Hashmap
 - [383. Ransom Note](https://github.com/Elianfm/LeetCode/tree/main/src/383.%20Ransom%20Note)
