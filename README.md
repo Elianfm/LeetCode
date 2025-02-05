@@ -6,6 +6,9 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [26. Remove Duplicates from Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 - [27. Remove Element](https://github.com/Elianfm/LeetCode/tree/main/src/27.%20Remove%20Element)
 - [80. Remove Duplicates from Sorted Array II](https://github.com/Elianfm/LeetCode/tree/main/src/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
+- [169. Majority Element](https://github.com/Elianfm/LeetCode/tree/main/src/169.%20Majority%20Element)
+- [189. Rotate Array](https://github.com/Elianfm/LeetCode/tree/main/src/189.%20Rotate%20Array)
+
 
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
@@ -19,6 +22,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 ## Hashmap
 - [383. Ransom Note](https://github.com/Elianfm/LeetCode/tree/main/src/383.%20Ransom%20Note)
+- [205. Isomorphic String](https://github.com/Elianfm/LeetCode/tree/main/
+
 
 ## Intervals
 - [228. Summary Ranges](https://github.com/Elianfm/LeetCode/tree/main/src/228.%20Summary%20Ranges)
