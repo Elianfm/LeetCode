@@ -19,11 +19,12 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 ## Matrix
 - [36. Valid Sudoku](https://github.com/Elianfm/LeetCode/tree/main/src/36.%20Valid%20Sudoku)
+- [54. SpiralMatrix](https://github.com/Elianfm/LeetCode/tree/main/src/54.%20Spiral%20Matrix)
 
 ## Hashmap
 - [383. Ransom Note](https://github.com/Elianfm/LeetCode/tree/main/src/383.%20Ransom%20Note)
-- [205. Isomorphic String](https://github.com/Elianfm/LeetCode/tree/main/
-
+- [205. Isomorphic String](https://github.com/Elianfm/LeetCode/tree/main/src/205.%20Isomorphic%20String)
+- [290. Word Pattern](https://github.com/Elianfm/LeetCode/tree/main/src/290.%20Word%20Pattern)
 
 ## Intervals
 - [228. Summary Ranges](https://github.com/Elianfm/LeetCode/tree/main/src/228.%20Summary%20Ranges)
