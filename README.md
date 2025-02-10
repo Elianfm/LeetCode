@@ -8,7 +8,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [80. Remove Duplicates from Sorted Array II](https://github.com/Elianfm/LeetCode/tree/main/src/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 - [169. Majority Element](https://github.com/Elianfm/LeetCode/tree/main/src/169.%20Majority%20Element)
 - [189. Rotate Array](https://github.com/Elianfm/LeetCode/tree/main/src/189.%20Rotate%20Array)
-
+- [2364. Count Number of Bad Pairs] (pending)
+- [3174. Clear Digits](https://github.com/Elianfm/LeetCode/tree/main/src/3174.%20Clear%20Digits)
 
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
@@ -48,8 +49,11 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 
 ## Graph General
+- [200. Number of Islands](https://github.com/Elianfm/LeetCode/tree/main/src/200.%20Number%20of%20Islands)
+
 
 ## Graph BFS
+- [909. Snakes and Ladders] (pending)
 
 ## Trie
 
