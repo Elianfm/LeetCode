@@ -1,3 +1,6 @@
+/* PENDING
+ * It would be interesting trying to solve this problem without using the String class
+ */
 class RemoveOccurrences {
 
     /*
