@@ -10,6 +10,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [189. Rotate Array](https://github.com/Elianfm/LeetCode/tree/main/src/189.%20Rotate%20Array)
 - [2364. Count Number of Bad Pairs] (pending)
 - [3174. Clear Digits](https://github.com/Elianfm/LeetCode/tree/main/src/3174.%20Clear%20Digits)
+- [1910. Remove All Occurrences of a Substring]
 
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
@@ -77,7 +78,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [9. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/9.%20Palindrome%20Number)
 
 ## 1D DP
-- [70. Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/srcsrc/70.%20Climbing%20Stairs)
+- [70. Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/70.%20Climbing%20Stairs)
 
 
 ## Multidimensional DP
+- [120. Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/120.%20Triangle)
