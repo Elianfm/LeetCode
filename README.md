@@ -27,6 +27,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [383. Ransom Note](https://github.com/Elianfm/LeetCode/tree/main/src/383.%20Ransom%20Note)
 - [205. Isomorphic String](https://github.com/Elianfm/LeetCode/tree/main/src/205.%20Isomorphic%20String)
 - [290. Word Pattern](https://github.com/Elianfm/LeetCode/tree/main/src/290.%20Word%20Pattern)
+- [2342. Max Sum of a Pair With Equal Sum of Digits](https://github.com/Elianfm/LeetCode/tree/main/src/2342.%20Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits)
 
 ## Intervals
 - [228. Summary Ranges](https://github.com/Elianfm/LeetCode/tree/main/src/228.%20Summary%20Ranges)
@@ -39,6 +40,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 ## Binary Tree General
 - [104. Maximum Depth of Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/104.%20Maximum%20Depth%20of%20Binary%20Tree)
+- [100. Same Tree](https://github.com/Elianfm/LeetCode/tree/main/src/100.%20Same%20Tree)
 
 ## Binary Tree BFS
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)

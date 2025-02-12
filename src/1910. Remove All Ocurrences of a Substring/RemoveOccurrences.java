@@ -1,5 +1,5 @@
 /* PENDING
- * It would be interesting trying to solve this problem without using the String class
+ * It would be interesting trying to solve this problem without in-built methods
  */
 class RemoveOccurrences {
 
