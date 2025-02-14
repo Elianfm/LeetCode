@@ -31,6 +31,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 ## Intervals
 - [228. Summary Ranges](https://github.com/Elianfm/LeetCode/tree/main/src/228.%20Summary%20Ranges)
+- [56. Merge Intervals] (pending)
 
 ## Stack
 - [20. Valid Parentheses](https://github.com/Elianfm/LeetCode/tree/main/src/20.%20Valid%20Parentheses)
@@ -59,6 +60,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [909. Snakes and Ladders] (pending)
 
 ## Trie
+- [208. Implement Trie (Prefix Tree)](https://github.com/Elianfm/LeetCode/tree/main/src/208.%20Implement%20Trie)
+
 
 ## Backtracking
 
