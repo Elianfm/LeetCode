@@ -81,6 +81,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 ## Math
 - [9. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/9.%20Palindrome%20Number)
+- [1352. Product of the Last K Numbers](https://github.com/Elianfm/LeetCode/tree/main/src/1352.%20Product%20of%20the%20Last%20K%20Numbers)
 
 ## 1D DP
 - [70. Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/70.%20Climbing%20Stairs)
