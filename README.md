@@ -42,6 +42,9 @@ This is my personal repository for storing my progress on LeetCode problems.
 ## Binary Tree General
 - [104. Maximum Depth of Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 - [100. Same Tree](https://github.com/Elianfm/LeetCode/tree/main/src/100.%20Same%20Tree)
+- [94. Binary Tree Inorder Traversal](https://github.com/Elianfm/LeetCode/tree/main/src/94.%20Binary%20Tree%20Inorder%20Traversal)
+- [144. Binary Tree Preorder Traversal](https://github.com/Elianfm/LeetCode/tree/main/src/144.Binary%20Tree%20Preorder%20Traversal)
+- [145. Binary Tree Postorder Traversal](https://github.com/Elianfm/LeetCode/tree/main/src/145.Binary%20Tree%20Postorder%20Traversal)
 
 ## Binary Tree BFS
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
