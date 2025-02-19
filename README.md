@@ -20,9 +20,10 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [209. Minimum Size Subarray Sum](https://github.com/Elianfm/LeetCode/tree/main/src/209.%20Minimum%20Size%20Subarray%20Sum)
 
 ## Matrix
-- [463. Island Perimeter](https://github.com/Elianfm/LeetCode/tree/main/src/463.%20Island%20Perimeter)
 - [36. Valid Sudoku](https://github.com/Elianfm/LeetCode/tree/main/src/36.%20Valid%20Sudoku)
 - [54. SpiralMatrix](https://github.com/Elianfm/LeetCode/tree/main/src/54.%20Spiral%20Matrix)
+- [463. Island Perimeter](https://github.com/Elianfm/LeetCode/tree/main/src/463.%20Island%20Perimeter)
+- [79. Word Search](https://github.com/Elianfm/LeetCode/tree/main/src/79.%20Word%20Search)
 
 ## Hashmap
 - [383. Ransom Note](https://github.com/Elianfm/LeetCode/tree/main/src/383.%20Ransom%20Note)
@@ -47,6 +48,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [144. Binary Tree Preorder Traversal](https://github.com/Elianfm/LeetCode/tree/main/src/144.Binary%20Tree%20Preorder%20Traversal)
 - [145. Binary Tree Postorder Traversal](https://github.com/Elianfm/LeetCode/tree/main/src/145.Binary%20Tree%20Postorder%20Traversal)
 - [563. Binary Tree Tilt](https://github.com/Elianfm/LeetCode/tree/main/src/563.%20Binary%20Tree%20Tilt)
+- [101. Symmetric Tree](https://github.com/Elianfm/LeetCode/tree/main/src/101.%20Symmetric%20Tree)
 
 ## Binary Tree BFS
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
