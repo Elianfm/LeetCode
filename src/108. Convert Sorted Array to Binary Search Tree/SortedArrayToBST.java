@@ -19,7 +19,7 @@ class TreeNode {
     }
 }
 
-public class sortedArrayToBST {
+public class SortedArrayToBST {
 
     /*
      * FIRST TRY - it worked
@@ -27,7 +27,7 @@ public class sortedArrayToBST {
      * Will reimplement using this improved logic
      * Runtime 0ms Beats 100%
      */
-    public TreeNode SortedArrayToBST(int[] nums) {
+    public TreeNode sortedArrayToBST(int[] nums) {
         int len = nums.length;
         int mid = (len / 2);
 

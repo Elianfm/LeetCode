@@ -49,6 +49,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [145. Binary Tree Postorder Traversal](https://github.com/Elianfm/LeetCode/tree/main/src/145.Binary%20Tree%20Postorder%20Traversal)
 - [563. Binary Tree Tilt](https://github.com/Elianfm/LeetCode/tree/main/src/563.%20Binary%20Tree%20Tilt)
 - [101. Symmetric Tree](https://github.com/Elianfm/LeetCode/tree/main/src/101.%20Symmetric%20Tree)
+- [112. Path Sum](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/112.%20Path%20Sum)
+- [113. Path Sum II](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/113.%20Path%20Sum%20II)
 
 ## Binary Tree BFS
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
