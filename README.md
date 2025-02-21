@@ -51,6 +51,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [101. Symmetric Tree](https://github.com/Elianfm/LeetCode/tree/main/src/101.%20Symmetric%20Tree)
 - [112. Path Sum](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/112.%20Path%20Sum)
 - [113. Path Sum II](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/113.%20Path%20Sum%20II)
+- [98. Validate Binary Search Tree](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/98.%20Validate%20Binary%20Search%20Tree)
+- [99. Recover Binary Search Tree](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/98.%20Recover%20Binary%20Search%20Tree)
 
 ## Binary Tree BFS
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
