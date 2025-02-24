@@ -18,6 +18,9 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 ## Sliding Window
 - [209. Minimum Size Subarray Sum](https://github.com/Elianfm/LeetCode/tree/main/src/209.%20Minimum%20Size%20Subarray%20Sum)
+- [219. Contains Duplicates II](https://github.com/Elianfm/LeetCode/tree/main/src/219.%20Contains%20Duplicates%20II)
+- [594. Longest Harmonious Subsequence](https://github.com/Elianfm/LeetCode/tree/main/src/594.%20Longest%20Harmonious%20Subsequence)
+- [643. Maximum Average Subarray I](https://github.com/Elianfm/LeetCode/tree/main/src/643.%20Maximum%20Average%20Subarray%20I)
 
 ## Matrix
 - [36. Valid Sudoku](https://github.com/Elianfm/LeetCode/tree/main/src/36.%20Valid%20Sudoku)
