@@ -21,6 +21,9 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [219. Contains Duplicates II](https://github.com/Elianfm/LeetCode/tree/main/src/219.%20Contains%20Duplicates%20II)
 - [594. Longest Harmonious Subsequence](https://github.com/Elianfm/LeetCode/tree/main/src/594.%20Longest%20Harmonious%20Subsequence)
 - [643. Maximum Average Subarray I](https://github.com/Elianfm/LeetCode/tree/main/src/643.%20Maximum%20Average%20Subarray%20I)
+- [1652. Defuse the Bomb](https://github.com/Elianfm/LeetCode/tree/main/src/1652.%20Defuse%20the%20Bomb)
+- [1876. Substrings of Size Three with Distinct Characters](https://github.com/Elianfm/LeetCode/tree/main/src/1876.%20Substrings%20of%20Size%20Three%20with%20Distinct%20Characters)
+- [2269. Find the K-Beauty of a Numbber](https://github.com/Elianfm/LeetCode/tree/main/src/2269.%20Find%20the%20K-Beauty%20of%20a%20Number)
 
 ## Matrix
 - [36. Valid Sudoku](https://github.com/Elianfm/LeetCode/tree/main/src/36.%20Valid%20Sudoku)
