@@ -24,6 +24,9 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [1652. Defuse the Bomb](https://github.com/Elianfm/LeetCode/tree/main/src/1652.%20Defuse%20the%20Bomb)
 - [1876. Substrings of Size Three with Distinct Characters](https://github.com/Elianfm/LeetCode/tree/main/src/1876.%20Substrings%20of%20Size%20Three%20with%20Distinct%20Characters)
 - [2269. Find the K-Beauty of a Numbber](https://github.com/Elianfm/LeetCode/tree/main/src/2269.%20Find%20the%20K-Beauty%20of%20a%20Number)
+- [3. Longest Substring Without Repeating Character](https://github.com/Elianfm/LeetCode/tree/main/src/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
+- [187. Repeted DNA Sequences](https://github.com/Elianfm/LeetCode/tree/main/src/187.%20Repeated%20DNA%20Sequences)
+
 
 ## Matrix
 - [36. Valid Sudoku](https://github.com/Elianfm/LeetCode/tree/main/src/36.%20Valid%20Sudoku)
