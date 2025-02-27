@@ -1,22 +1,3 @@
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
-
 public class MaximumDepthOfBinaryTree {
     /* SECOND TRY, i found there is a better solution
      * without using the count variable, just return the maximum
@@ -62,4 +43,17 @@ public class MaximumDepthOfBinaryTree {
      * }
      */
 
+     class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+    
 }

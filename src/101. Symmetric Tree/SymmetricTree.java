@@ -1,16 +1,3 @@
-class TreeNode{
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) {this.val = val;}
-    TreeNode(int val, TreeNode left, TreeNode right){
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
-
 class SymmetricTree {
     /*
      * First try, at first i thought it was a good idea to use two recursive 
@@ -34,5 +21,17 @@ class SymmetricTree {
         && recurse(nleft.right, nright.left);
     }
 
-
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+    
 }
