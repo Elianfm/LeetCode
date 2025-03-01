@@ -1,7 +1,7 @@
 This is my personal repository for storing my progress on LeetCode problems.
 
 # List of solved problems
-## Array/String
+## Array/String/Recursion
 - [88. Merge Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/88.%20Merge%20Sorted%20Array)
 - [26. Remove Duplicates from Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 - [27. Remove Element](https://github.com/Elianfm/LeetCode/tree/main/src/27.%20Remove%20Element)
@@ -11,6 +11,9 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [2364. Count Number of Bad Pairs] (pending)
 - [3174. Clear Digits](https://github.com/Elianfm/LeetCode/tree/main/src/3174.%20Clear%20Digits)
 - [1910. Remove All Occurrences of a Substring]
+- [118. Pascal's Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/118.%20Pascal's%20Triangle)
+- [119. Pascal's Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/121.%20Pascal's%20Triangle%20II)
+- [121. Best Time to Buy and Sell Stock](https://github.com/Elianfm/LeetCode/tree/main/src/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
@@ -26,6 +29,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [2269. Find the K-Beauty of a Numbber](https://github.com/Elianfm/LeetCode/tree/main/src/2269.%20Find%20the%20K-Beauty%20of%20a%20Number)
 - [3. Longest Substring Without Repeating Character](https://github.com/Elianfm/LeetCode/tree/main/src/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
 - [187. Repeted DNA Sequences](https://github.com/Elianfm/LeetCode/tree/main/src/187.%20Repeated%20DNA%20Sequences)
+- [413. Arithmetic Slices](https://github.com/Elianfm/LeetCode/tree/main/src/413.%20Arithmetic%20Slices)
+- [220. Contains Duplicate III](https://github.com/Elianfm/LeetCode/tree/main/src/220.%20Contains%20Duplicate%20III)
 
 
 ## Matrix
