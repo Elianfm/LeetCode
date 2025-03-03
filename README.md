@@ -108,8 +108,11 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [9. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/9.%20Palindrome%20Number)
 - [1352. Product of the Last K Numbers](https://github.com/Elianfm/LeetCode/tree/main/src/1352.%20Product%20of%20the%20Last%20K%20Numbers)
 
-## 1D DP
+## DP
 - [70. Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/70.%20Climbing%20Stairs)
+- [509. Fibonacci Number](https://github.com/Elianfm/LeetCode/tree/main/src/509.%20Fibonacci%20Number)
+- [746. Min Cost Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/746.%20Min%20Cost%20Climbing%20Stairs)
+- [1025. Divisor Game](https://github.com/Elianfm/LeetCode/tree/main/src/1025.%20Divisor%20Game)
 
 
 ## Multidimensional DP
