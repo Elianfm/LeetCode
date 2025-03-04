@@ -18,6 +18,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
 - [392. Is Subsequence](https://github.com/Elianfm/LeetCode/tree/main/src/392.%20Is%20Subsequence)
+- [1578. Minimum Time to Make Rope Colorful](https://github.com/Elianfm/LeetCode/tree/main/src/1578.%20Minimum%20Time%20to%20Make%20Rope%20Colorful)
 
 ## Sliding Window
 - [209. Minimum Size Subarray Sum](https://github.com/Elianfm/LeetCode/tree/main/src/209.%20Minimum%20Size%20Subarray%20Sum)
@@ -113,7 +114,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [509. Fibonacci Number](https://github.com/Elianfm/LeetCode/tree/main/src/509.%20Fibonacci%20Number)
 - [746. Min Cost Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/746.%20Min%20Cost%20Climbing%20Stairs)
 - [1025. Divisor Game](https://github.com/Elianfm/LeetCode/tree/main/src/1025.%20Divisor%20Game)
-
+- [1137. N-th Tribonacci Number](https://github.com/Elianfm/LeetCode/tree/main/src/1137.%20N-th%20Tribonacci%20Number)
 
 ## Multidimensional DP
 - [120. Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/120.%20Triangle)
