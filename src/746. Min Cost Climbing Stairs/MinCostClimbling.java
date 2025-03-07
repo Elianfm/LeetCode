@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class MinCostClimbling {
 
     /*
@@ -8,7 +11,7 @@ public class MinCostClimbling {
      * Memory: 43.15 Beats 61,73%
      */
 
-     class Solution {
+     class Solution2 {
         public int minCostClimbingStairs(int[] cost) {
             for(int i = 2; i<cost.length; i++){
                 cost[i] += Math.min(cost[i-1], cost[i-2]);

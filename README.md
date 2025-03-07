@@ -90,6 +90,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 
 ## Backtracking
+- [22. Generate Parentheses](https://github.com/Elianfm/LeetCode/tree/main/src/22.%20Generate%20Parentheses)
 
 ## Divide & Conquer
 - [108. Convert Sorted Array to Binary Search Tree](https://github.com/Elianfm/LeetCode/tree/main/src/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree)
