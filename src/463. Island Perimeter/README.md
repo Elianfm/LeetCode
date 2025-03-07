@@ -1,4 +1,3 @@
-```md
 # Island Perimeter
 
 ## Problem Statement
@@ -76,4 +75,3 @@ A single land cell has a perimeter of **4**.
 - `1 <= row, col <= 100`
 - `grid[i][j]` is either `0` (water) or `1` (land).
 - There is **exactly one** island in `grid`.
-```

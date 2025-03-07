@@ -1,4 +1,3 @@
-```md
 # Binary Tree Inorder Traversal
 
 ## Problem Statement
@@ -96,4 +95,3 @@ root = [1]
 ## Follow-up
 
 Follow up: Recursive solution is trivial, could you do it iteratively?
-```

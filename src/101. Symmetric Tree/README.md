@@ -1,4 +1,3 @@
-```md
 # Symmetric Tree
 
 ## Problem Statement
@@ -47,4 +46,3 @@ The tree is **not** symmetric because the left and right subtrees do not mirror 
 ---
 
 ## Follow-up:  Could you solve it both recursively and iteratively?
-```

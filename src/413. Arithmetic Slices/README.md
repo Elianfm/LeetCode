@@ -1,4 +1,3 @@
-```md
 # Arithmetic Subarrays
 
 An integer array is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.
@@ -37,4 +36,3 @@ nums = [1]
 
 - `1 <= nums.length <= 5000`
 - `-1000 <= nums[i] <= 1000`
-```

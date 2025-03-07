@@ -1,4 +1,3 @@
-```md
 # Delete and Earn
 
 You are given an integer array `nums`. You want to maximize the number of points you get by performing the following operation any number of times:
@@ -39,4 +38,3 @@ Return the maximum number of points you can earn by applying the above operation
 
 - `1 <= nums.length <= 2 * 10^4`
 - `1 <= nums[i] <= 10^4`
-```

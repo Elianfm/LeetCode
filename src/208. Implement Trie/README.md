@@ -1,4 +1,3 @@
-```md
 # Trie (Prefix Tree) Implementation
 
 ## Problem Statement
@@ -46,4 +45,3 @@ trie.search("app");     // returns true
 - `1 <= word.length, prefix.length <= 2000`
 - `word` and `prefix` consist only of **lowercase English letters**.
 - **At most** `3 * 10^4` calls will be made to `insert`, `search`, and `startsWith`.
-```

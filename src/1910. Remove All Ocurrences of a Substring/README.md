@@ -1,4 +1,3 @@
-```md
 # Remove All Occurrences of a Substring
 
 ## Problem Statement

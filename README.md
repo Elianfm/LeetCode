@@ -116,6 +116,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [746. Min Cost Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/746.%20Min%20Cost%20Climbing%20Stairs)
 - [1025. Divisor Game](https://github.com/Elianfm/LeetCode/tree/main/src/1025.%20Divisor%20Game)
 - [1137. N-th Tribonacci Number](https://github.com/Elianfm/LeetCode/tree/main/src/1137.%20N-th%20Tribonacci%20Number)
+- [740. Delete and Earn](https://github.com/Elianfm/LeetCode/tree/main/src/740.%20Delete%20and%20Earn)G
 
 ## Multidimensional DP
 - [120. Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/120.%20Triangle)
+- [62. Unique Paths](https://github.com/Elianfm/LeetCode/tree/main/src/62.%20Unique%20Paths)
