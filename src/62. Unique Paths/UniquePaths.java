@@ -12,7 +12,7 @@ public class UniquePaths {
      * Runtime: 0ms beats 100%
      * Memory: 40.22mb beats 87.59%
      */
-    class Solution {
+    class Solution3 {
 
         /*
          * 0  1  1  1
