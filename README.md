@@ -14,6 +14,9 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [118. Pascal's Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/118.%20Pascal's%20Triangle)
 - [119. Pascal's Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/121.%20Pascal's%20Triangle%20II)
 - [121. Best Time to Buy and Sell Stock](https://github.com/Elianfm/LeetCode/tree/main/src/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
+- [217. Contains Duplicates](https://github.com/Elianfm/LeetCode/tree/main/src/217.%20Contains%20Duplicates)
+- [242. Valid Anagram](https://github.com/Elianfm/LeetCode/tree/main/src/242.%20Valid%20Anagram)
+- [1. Two Sum](https://github.com/Elianfm/LeetCode/tree/main/src/1.%20Two%20Sum)
 
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)

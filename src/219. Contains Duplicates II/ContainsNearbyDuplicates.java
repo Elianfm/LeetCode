@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-class ContainsDuplicates {
+class ContainsNearbyDuplicates {
     /*
      * Second try, instead of using a hashmap, i can use a set to store the
      * elements, and check if the set contains the element, if it does, return true,
