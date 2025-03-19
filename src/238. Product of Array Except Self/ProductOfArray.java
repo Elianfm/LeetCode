@@ -1,6 +1,8 @@
 public class ProductOfArray {
     /*
      * First try, using division and managing edge cases of zeros
+     * This is using division but it is not allowed in the question
+     * so this is not a valid solution.
      * 
      * Runtime: 2ms beats 87.94%
      */
