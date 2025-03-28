@@ -18,6 +18,8 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [242. Valid Anagram](https://github.com/Elianfm/LeetCode/tree/main/src/242.%20Valid%20Anagram)
 - [1. Two Sum](https://github.com/Elianfm/LeetCode/tree/main/src/1.%20Two%20Sum)
 - [238. Product of Array Except Self](https://github.com/Elianfm/LeetCode/tree/main/src/238.%20Product%20of%20Array%20Except%20Self)
+- [49. Group Anagrams](https://github.com/Elianfm/LeetCode/tree/main/src/49.%20Group%20Anagrams) 
+
 
 ## Two Pointers
 - [125. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/125.%20Valid%20Palindrome)
