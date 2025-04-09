@@ -27,6 +27,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [1578. Minimum Time to Make Rope Colorful](https://github.com/Elianfm/LeetCode/tree/main/src/1578.%20Minimum%20Time%20to%20Make%20Rope%20Colorful)
 - [167. Two Sum II - Input Array Is Sorted](https://github.com/Elianfm/LeetCode/tree/main/src/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)
 - [15. 3Sum](https://github.com/Elianfm/LeetCode/tree/main/src/15.%203Sum)
+- [11. Container With Most Water](https://github.com/Elianfm/LeetCode/tree/main/src/11.%20Container%20With%20Most%20Water)
 
 ## Sliding Window
 - [209. Minimum Size Subarray Sum](https://github.com/Elianfm/LeetCode/tree/main/src/209.%20Minimum%20Size%20Subarray%20Sum)
