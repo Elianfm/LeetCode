@@ -1,4 +1,7 @@
 /* PENDING TRY to solve with O(n) complexity */
+
+import java.util.Arrays;
+
 public class LongestConsecutiveSequence {
 
     /*
@@ -10,7 +13,6 @@ public class LongestConsecutiveSequence {
      * Runtime: 15ms beats 99.51%
      * Memory: 56.21mb beats 97.82%
      */
-
      class Solution {
         public int longestConsecutive(int[] nums) {
             if(nums.length == 0) return 0;
