@@ -42,6 +42,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [413. Arithmetic Slices](https://github.com/Elianfm/LeetCode/tree/main/src/413.%20Arithmetic%20Slices)
 - [220. Contains Duplicate III](https://github.com/Elianfm/LeetCode/tree/main/src/220.%20Contains%20Duplicate%20III)
 - [424. Longest Repeating Character Replacement](https://github.com/Elianfm/LeetCode/tree/main/src/424.%20Longest%20Repeating%20Character%20Replacement)
+- [567. Permutation in String](https://github.com/Elianfm/LeetCode/tree/main/src/567.%20Permutation%20in%20String)
 
 ## Matrix
 - [36. Valid Sudoku](https://github.com/Elianfm/LeetCode/tree/main/src/36.%20Valid%20Sudoku)
