@@ -110,6 +110,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 
 ## Binary Search 
 - [35. Search Insert Position](https://github.com/Elianfm/LeetCode/tree/main/src/35.%20Search%20Insert%20Position)
+- [704. Binary Search](https://github.com/Elianfm/LeetCode/tree/main/src/704.%20Binary%20Search)
 
 ## Heap
 
