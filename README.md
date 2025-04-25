@@ -113,6 +113,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 - [704. Binary Search](https://github.com/Elianfm/LeetCode/tree/main/src/704.%20Binary%20Search)
 - [74. Search a 2D Matrix](https://github.com/Elianfm/LeetCode/tree/main/src/74.%20Search%20a%202D%20Matrix)
 - [153. Find Minimum in Rotated Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array)
+- [33. Search in Rotated Sorted Array](https://github.com/Elianfm/LeetCode/tree/main/src/33.%20Search%20in%20Rotated%20Sorted%20Array)
 
 ## Heap
 
