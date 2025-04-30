@@ -2,39 +2,61 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class ValidParentheses {
-/* Third option, following same logic but easier to read
- * 2ms Beats 97.66%
- */
-public boolean isValid(String s) {
-    Deque<Character> deque = new ArrayDeque<>();
-    for (char c : s.toCharArray()) {
-        switch(c){
-            case '(','[','{':
-                deque.push(c);
-                break;
-            case ')',']','}':
-                if(deque.isEmpty() || !validParentheses(deque.pop(), c)) return false;
-                break;
+
+    /*
+    * Fourth option, slow but simple and easy to read.
+    * Runtime: 2ms Beats 97.37%
+    */
+    class Solution {
+        public boolean isValid(String s) {
+            Deque<Character> values = new ArrayDeque<>();
+
+            for(char c: s.toCharArray()){
+                switch (c) {
+                    case '(': values.push(')'); break;
+                    case '[': values.push(']'); break;
+                    case '{': values.push('}'); break;
+                    default: if(values.isEmpty() || values.pop() != c) return false;
+                }
+            }
+
+            return values.isEmpty();
         }
     }
 
-    return deque.isEmpty();
-}
+    /* Third option, following same logic but easier to read
+    * 2ms Beats 97.66%
+    */
+    public boolean isValid(String s) {
+        Deque<Character> deque = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            switch(c){
+                case '(','[','{':
+                    deque.push(c);
+                    break;
+                case ')',']','}':
+                    if(deque.isEmpty() || !validParentheses(deque.pop(), c)) return false;
+                    break;
+            }
+        }
 
-public boolean validParentheses(char previous, char actual) {
-    switch (previous) {
-        case '(': return actual == ')';
-        case '[': return actual == ']';
-        case '{': return actual == '}';
-        default: return false;
+        return deque.isEmpty();
     }
-}
+
+    public boolean validParentheses(char previous, char actual) {
+        switch (previous) {
+            case '(': return actual == ')';
+            case '[': return actual == ']';
+            case '{': return actual == '}';
+            default: return false;
+        }
+    }
 
 
-/* Second try, in this case, i tried to solve the problem using recursion
- * to practice the concept. 1ms Beats 99.66%
- */
-/* 
+    /* Second try, in this case, i tried to solve the problem using recursion
+    * to practice the concept. 1ms Beats 99.66%
+    */
+    /* 
     public boolean isValid(String s) {
         Deque<Character> deque = new ArrayDeque<Character>();
         return isValidRecurse(s, s.length() - 1, deque);
@@ -68,12 +90,12 @@ public boolean validParentheses(char previous, char actual) {
             default: return false;
         }
     }
-*/
+    */
 
 
-/* First try */
-/* 2ms Beats 97.66% */
-/* 
+    /* First try */
+    /* 2ms Beats 97.66% */
+    /* 
     public boolean isValid(String s) {
 
         Deque<Character> deque = new ArrayDeque()<Character>();
