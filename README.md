@@ -63,6 +63,7 @@ This is my personal repository for storing my progress on LeetCode problems.
 ## Stack
 - [20. Valid Parentheses](https://github.com/Elianfm/LeetCode/tree/main/src/20.%20Valid%20Parentheses)
 - [150. Evaluate Reverse Polish Notation](https://github.com/Elianfm/LeetCode/tree/main/src/150.%20Evaluate%20Reverse%20Polish%20Notation)
+- [155. Min Stack](https://github.com/Elianfm/LeetCode/tree/main/src/155.%20Min%20Stack)
 
 ## Linked List
 - [141. Linked List Cycle](https://github.com/Elianfm/LeetCode/tree/main/src/141.%20Linked%20List%20Cycle)
