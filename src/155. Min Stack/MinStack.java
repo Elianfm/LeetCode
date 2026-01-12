@@ -4,6 +4,10 @@
  *  
  * Runtime: 4ms beats 97.47%
  */
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 public class MinStack {
     //And so, Dave constructed a megaphone, using only some string, 
     //a squirrel, and a megaphone!
