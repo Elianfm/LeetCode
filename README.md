@@ -7,6 +7,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [3. Longest Substring Without Repeating Character](https://github.com/Elianfm/LeetCode/tree/main/src/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
 - [9. Valid Palindrome](https://github.com/Elianfm/LeetCode/tree/main/src/9.%20Palindrome%20Number)
 - [11. Container With Most Water](https://github.com/Elianfm/LeetCode/tree/main/src/11.%20Container%20With%20Most%20Water)
+- [14. Longest Common Prefix](https://github.com/Elianfm/LeetCode/tree/main/src/14.%20Longest%20Common%20Prefix)
 - [15. 3Sum](https://github.com/Elianfm/LeetCode/tree/main/src/15.%203Sum)
 - [20. Valid Parentheses](https://github.com/Elianfm/LeetCode/tree/main/src/20.%20Valid%20Parentheses)
 - [22. Generate Parentheses](https://github.com/Elianfm/LeetCode/tree/main/src/22.%20Generate%20Parentheses)
