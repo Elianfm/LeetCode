@@ -4,7 +4,7 @@ public class ValidPalindromeII {
     * Recursion, it works, its legible, but its slow
     * Runtime: 15ms beats 5.21ms
     */
-   class Solution {
+   class Solution2 {
         public boolean validPalindrome(String s) {
             int left = 0;
             int right = s.length()-1;
