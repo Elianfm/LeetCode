@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+
 public class DesignHashSet {
 
     // Looks like faster implementations use a fixed size array or 

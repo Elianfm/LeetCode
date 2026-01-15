@@ -20,7 +20,7 @@ public class MergeStringsAlternately {
 
             if (idx < lenWord1) {
                 out.append(word1.substring(idx));
-            } else if (idx < lenWord2) {
+            } else {
                 out.append(word2.substring(idx));
             }
 
@@ -47,7 +47,7 @@ public class MergeStringsAlternately {
 
             if (idx < lenWord1) {
                 out += "" + word1.substring(idx);
-            } else if (idx < lenWord2) {
+            } else {
                 out += "" + word2.substring(idx);
             }
 
