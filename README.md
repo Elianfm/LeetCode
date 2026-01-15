@@ -74,6 +74,8 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
 - [643. Maximum Average Subarray I](https://github.com/Elianfm/LeetCode/tree/main/src/643.%20Maximum%20Average%20Subarray%20I)
 - [704. Binary Search](https://github.com/Elianfm/LeetCode/tree/main/src/704.%20Binary%20Search)
+- [705. Design HashSet](https://github.com/Elianfm/LeetCode/tree/main/src/705.%20Design%20HashSet)
+- [706. Design HashMap](https://github.com/Elianfm/LeetCode/tree/main/src/706.%20Design%20HashMap)
 - [740. Delete and Earn](https://github.com/Elianfm/LeetCode/tree/main/src/740.%20Delete%20and%20Earn)
 - [746. Min Cost Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/746.%20Min%20Cost%20Climbing%20Stairs)
 - [783. Minimum Distance Beetween BST Nodes](https://github.com/Elianfm/LeetCode/tree/main/src/783.%20Minimum%20Distance%20Between%20BST%20Nodes)
