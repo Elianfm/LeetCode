@@ -1,3 +1,5 @@
+import java.util.ArrayDeque;
+
 public class BaseballGame {
     /*
     * First try, using a stack to store the scores
