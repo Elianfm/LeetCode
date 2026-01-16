@@ -73,6 +73,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [594. Longest Harmonious Subsequence](https://github.com/Elianfm/LeetCode/tree/main/src/594.%20Longest%20Harmonious%20Subsequence)
 - [637. Average of Levels in Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
 - [643. Maximum Average Subarray I](https://github.com/Elianfm/LeetCode/tree/main/src/643.%20Maximum%20Average%20Subarray%20I)
+- [682. Baseball Game](https://github.com/Elianfm/LeetCode/tree/main/src/682.%20Baseball%20Game)
 - [704. Binary Search](https://github.com/Elianfm/LeetCode/tree/main/src/704.%20Binary%20Search)
 - [705. Design HashSet](https://github.com/Elianfm/LeetCode/tree/main/src/705.%20Design%20HashSet)
 - [706. Design HashMap](https://github.com/Elianfm/LeetCode/tree/main/src/706.%20Design%20HashMap)
