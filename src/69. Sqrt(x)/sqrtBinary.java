@@ -3,7 +3,7 @@ public class sqrtBinary {
     /*
     * I realize i dont need two pow calculations each recursion! 
     */
-    class Solution3 {
+    class Solution {
         public int mySqrt(int x) {
             // INTEGER MAX VALUE = 2_147_483_647
             // 46340 max pow
@@ -14,11 +14,12 @@ public class sqrtBinary {
             if (left > right) return right;
 
             int mid = (left + right) / 2;
-            int powLow = mid*mid;
 
-            if(x == powLow) return mid;
+            int div = x/mid;
+            if(mid == div) return mid;
 
-            return (x > powLow) ? searchSqrt(x, mid+1, right)
+            return (mid <= div) 
+                    ? searchSqrt(x, mid+1, right)
                     : searchSqrt(x,left, mid-1);
         }
     }
