@@ -12,7 +12,7 @@ public class GuessNumber {
     * Using switch expression to make the code cleaner
     * Runtime: 0ms beats 100%
     */
-   public class Solution extends GuessGame {
+   public class Solution2 extends GuessGame {
         public int guessNumber(int n) {
             return recursionGuess(1,n);
         }
@@ -55,6 +55,14 @@ public class GuessNumber {
             }
 
             return 0;
+        }
+    }
+
+    // just to avoid compilation error
+    public class GuessGame {
+
+        public int guess(int num) {
+            return 0; 
         }
     }
 
