@@ -3,7 +3,7 @@ public class sqrtBinary {
     /*
     * I realize i dont need two pow calculations each recursion! 
     */
-    class Solution {
+    class Solution3 {
         public int mySqrt(int x) {
             // INTEGER MAX VALUE = 2_147_483_647
             // 46340 max pow
