@@ -1,6 +1,4 @@
 class Solution {
-
-
     /*
     * First try, loop and create new nodes for the reversed list
     * Runtime: 0ms beats 100%
