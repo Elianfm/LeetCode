@@ -8,15 +8,15 @@ public class BalancedBinaryTree {
         boolean isValid = true;
 
         public boolean isBalanced(TreeNode root) {
-            isBalancedHeight(root, 0);
+            isBalancedHeight(root);
             return isValid;
         }
 
-        private int isBalancedHeight(TreeNode root, int height){
+        private int isBalancedHeight(TreeNode root){
             if(root == null) return 0;
             
-            int leftHeight = isBalancedHeight(root.left, height);
-            int rightHeight = isBalancedHeight(root.right, height);
+            int leftHeight = isBalancedHeight(root.left);
+            int rightHeight = isBalancedHeight(root.right);
 
             int maxHeight = Math.max(leftHeight, rightHeight);
 
