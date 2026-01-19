@@ -75,6 +75,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [463. Island Perimeter](https://github.com/Elianfm/LeetCode/tree/main/src/463.%20Island%20Perimeter)
 - [509. Fibonacci Number](https://github.com/Elianfm/LeetCode/tree/main/src/509.%20Fibonacci%20Number)
 - [530. Minimum Absolute Difference in BST](https://github.com/Elianfm/LeetCode/tree/main/src/530.%20Minimum%20Absolute%20Difference%20in%20BST)
+- [543. Diameter of Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/543.%20Diameter%20of%20Binary%20Tree)
 - [563. Binary Tree Tilt](https://github.com/Elianfm/LeetCode/tree/main/src/563.%20Binary%20Tree%20Tilt)
 - [567. Permutation in String](https://github.com/Elianfm/LeetCode/tree/main/src/567.%20Permutation%20in%20String)
 - [594. Longest Harmonious Subsequence](https://github.com/Elianfm/LeetCode/tree/main/src/594.%20Longest%20Harmonious%20Subsequence)
