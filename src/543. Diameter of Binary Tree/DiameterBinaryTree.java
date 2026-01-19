@@ -1,10 +1,10 @@
 public class DiameterBinaryTree{
 
     /*
-    * Second try, after some changes i got O(n) time complexity
+    * Third try, after some changes i got O(n) time complexity
     * Runtime 0ms beats 100%
     */
-   class Solution {
+   class Solution2 {
         private int diameter = 0;
 
         public int diameterOfBinaryTree(TreeNode root) {
@@ -24,6 +24,45 @@ public class DiameterBinaryTree{
         }
     }
 
+    /*
+    * I tried to improve first try using memoization to store depths
+    * but still is inefficient
+    * Runtime 4ms beats 15.09%
+    */
+   class Solution {
+
+    Map<TreeNode, Integer> depthMemo = new HashMap<>();
+
+    public int diameterOfBinaryTree(TreeNode root) {
+        if (root == null) return 0;
+
+        int maxDiameterLeft = diameterOfBinaryTree(root.left);
+        int maxDiameterRight = diameterOfBinaryTree(root.right);
+
+        int maxDiameter = Math.max(maxDiameterLeft, maxDiameterRight);
+
+        int leftDepth = maxDeep(root.left);
+        int rightDepth = maxDeep(root.right);
+
+        int maxActual = leftDepth + rightDepth;
+
+        return Math.max(maxActual, maxDiameter);
+    }
+
+    private int maxDeep(TreeNode root) {
+        if (root == null) return 0;
+
+        if (depthMemo.containsKey(root)) return depthMemo.get(root);
+        
+        int depth = 1 + Math.max(
+            maxDeep(root.left),
+            maxDeep(root.right)
+        );
+
+        depthMemo.put(root, depth);
+        return depth;
+    }
+}
 
 
     /*
