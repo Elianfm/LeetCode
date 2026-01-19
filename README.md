@@ -35,6 +35,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [101. Symmetric Tree](https://github.com/Elianfm/LeetCode/tree/main/src/101.%20Symmetric%20Tree)
 - [104. Maximum Depth of Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 - [108. Convert Sorted Array to Binary Search Tree](https://github.com/Elianfm/LeetCode/tree/main/src/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree)
+- [110. Balanced Binary Tree](https://github.com/Elianfm/LeetCode/tree/main/src/110.%20Balanced%20Binary%20Tree)
 - [112. Path Sum](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/112.%20Path%20Sum)
 - [113. Path Sum II](https://github.com/Elianfm/LeetCode/tree/main/LeetCode/src/113.%20Path%20Sum%20II)
 - [118. Pascal's Triangle](https://github.com/Elianfm/LeetCode/tree/main/src/118.%20Pascal's%20Triangle)
