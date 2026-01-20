@@ -1,7 +1,7 @@
 public class InvertBinaryTree {
 
     // Cleaner version
-    class Solution {
+    class Solution2 {
         public TreeNode invertTree(TreeNode root) {
             if(root == null) return root; 
 
