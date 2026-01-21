@@ -3,6 +3,33 @@ import java.util.Map;
 
 public class ClimbingStairs {
     /*
+     * Fourth try, recursive with memoization, using an array instead of a map
+     * Runtime: 0ms beats 100%
+     */
+    class Solution {
+        int[] steps;
+
+        public int climbStairs(int n) {
+            steps = new int[n];
+            return climb(n, 0);
+        }
+
+        private int climb(int n, int pos){
+            if(pos > n) return 0;
+            if(pos == n) return 1;
+            if(steps[pos] != 0) return steps[pos];
+
+            int oneStep = climb(n,pos+1);
+            int twoSteps = climb(n, pos+2);
+            int res = oneStep + twoSteps;
+            steps[pos] = res;
+
+            return res;
+        }
+    }
+
+
+    /*
      * THIRD TRY -
      * I found a interesting technique called memoization 
      * that can be used to optimize the recursive approach. 
