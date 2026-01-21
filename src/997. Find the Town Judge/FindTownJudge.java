@@ -1,3 +1,8 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class FindTownJudge {
 
     /*
@@ -6,7 +11,7 @@ public class FindTownJudge {
      * 
      * Runtime: 2ms beats 99.73%
      */
-    class Solution {
+    class Solution2 {
         public int findJudge(int n, int[][] trust) {
             int[] score = new int[n+1];
 
