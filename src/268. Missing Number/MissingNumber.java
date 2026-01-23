@@ -4,7 +4,7 @@ public class MissingNumber{
      * Alr, i got the bit manipulation approach
      * runtime 0ms beats 100%
      */
-    class Solution {
+    class Solution2 {
         public int missingNumber(int[] nums) {
             int miss = nums.length;
             for(int i = 0; i<nums.length; i++)
