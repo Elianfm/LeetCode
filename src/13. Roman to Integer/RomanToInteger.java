@@ -17,8 +17,7 @@ public class RomanToInteger {
             for(int i = 1; i<s.length(); i++){
                 int actual = value(s.charAt(i));
 
-                if (prev < actual)
-                    sum -= 2 * prev;
+                if (prev < actual) sum -= 2 * prev;
                 
                 sum += actual;
                 prev = actual;
