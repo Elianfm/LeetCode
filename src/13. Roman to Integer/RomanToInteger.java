@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class RomanToInteger {
 
     /*
@@ -9,7 +12,7 @@ public class RomanToInteger {
      * Runtime: 2ms beats 99.53%
      */
 
-    class Solution {
+    class Solution2 {
         public int romanToInt(String s) {
             int prev = value(s.charAt(0));
             int sum = prev;
