@@ -3,7 +3,7 @@ public class PlusOne {
     /*
      * Cleaned up version of my first try
      */
-    class Solution {
+    class Solution2 {
         public int[] plusOne(int[] digits) {
             int len = digits.length;
 
