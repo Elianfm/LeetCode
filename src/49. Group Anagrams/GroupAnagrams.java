@@ -5,6 +5,39 @@ import java.util.List;
 import java.util.Map;
 
 public class GroupAnagrams {
+    /*
+     * A little cleaner version
+     * Runtime 6ms beats 99.26%
+     */
+
+    class Solution3 {
+        public List<List<String>> groupAnagrams(String[] strs) {
+            List<List<String>> out = new ArrayList<>();
+            Map<String,Integer> memo = new HashMap<>();
+
+
+            for(String s: strs){
+                char[] chars = s.toCharArray();
+                Arrays.sort(chars);
+                String sorted = new String(chars);
+
+                if(memo.containsKey(sorted)){
+                    int idx = memo.get(sorted);
+                    List<String> ls = out.get(idx);
+                    ls.add(s);
+                } else{
+                    List<String> newList = new ArrayList<>();
+                    newList.add(s);
+                    out.add(newList);
+                    memo.put(sorted, out.size()-1);
+                }
+
+            }
+
+            return out;
+
+        }
+    }
 
     /*
      * Second try, i order the string and use it as a key and a pointer to the
