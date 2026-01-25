@@ -1,5 +1,6 @@
 public class Search2DMatrix {
 
+
     /*
      * First try, binary search approach.
      * I thought of the matrix as a 1D array, and then I can use binary search to
@@ -35,5 +36,21 @@ public class Search2DMatrix {
 
         }
 
+    }
+
+
+    /*
+     * Just trying things, i found linear approach works as well, 
+     * and leetcode takes it as runtime 0ms too lol
+     * Runtime 0ms beats 100%
+     */
+    class SolutionLinear {
+        public boolean searchMatrix(int[][] matrix, int target) {
+            for(int i = 0; i<matrix.length; i++)
+                for(int j=0; j<matrix[0].length; j++)
+                    if(target == matrix[i][j]) return true;
+
+            return false;
+        }
     }
 }
