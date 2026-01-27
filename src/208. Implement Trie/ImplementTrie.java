@@ -3,6 +3,7 @@ import java.util.Map;
 
 class Trie {
 
+    // pending to do with array implementation later
 
     /*
      * First try, brute force, why not? brrrr
