@@ -3,6 +3,28 @@ public class CountingBits {
     // Pending do it in linear time single pass (follow up question)
 
     /*
+     * Second try, similar but without recursion
+     * Runtime: 2ms beats 96.43%
+     */
+    class Solution2 {
+        public int[] countBits(int n) {
+            int[] ans = new int[n+1];
+
+            for(int i = 0; i<ans.length; i++){
+                int temp = i;
+                int sum = 0;
+                while(temp > 0){
+                sum += temp & 1;
+                temp >>= 1;
+                }
+                ans[i] = sum;
+            }
+
+            return ans;
+        }
+    }
+
+    /*
      * First try, i thought to use the same logic as in
      * 191. Number of 1 Bits problem, i got a O(n log n) solution
      * 
