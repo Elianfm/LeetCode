@@ -1,8 +1,48 @@
+import java.util.Arrays;
 
- // Pending a solution with less space complexity 
 public class UniquePaths {
 
+    /*
+     * Same but O(m) space! The num of paths keep only the last row info
+     * i dont need the whole matrix
+     * Runtime: 0ms beats 100%
+     */
+    class Solution5 {
+        public int uniquePaths(int m, int n) {
+            int[] paths = new int[n];
 
+            Arrays.fill(paths, 1);
+            
+            for(int i = 1; i<m; i++)
+                for(int j = 1; j<n; j++)
+                    paths[j] += paths[j-1];
+                
+            return paths[n-1];
+        }
+
+    }
+
+    /*
+     * Same but a little cleaner
+     */
+    class Solution4 {
+        public int uniquePaths(int m, int n) {
+            int[][] paths = new int[m][n];
+
+            for (int i = 0; i < m; i++)
+                Arrays.fill(paths[i], 1);
+            
+            for(int i = 1; i<m; i++)
+                for(int j = 1; j<n; j++)
+                    paths[i][j] = paths[i-1][j] + paths[i][j-1];
+                
+            return paths[m-1][n-1];
+        }
+
+    }
+
+
+    
     /*
      * Third try, i realize the number of paths is similar to Pascal's triangle
      * then i simulate the triangle over a 2d array and use dp to get the result
