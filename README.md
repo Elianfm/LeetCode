@@ -116,6 +116,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [1137. N-th Tribonacci Number](https://github.com/Elianfm/LeetCode/tree/main/src/1137.%20N-th%20Tribonacci%20Number)
 - [1352. Product of the Last K Numbers](https://github.com/Elianfm/LeetCode/tree/main/src/1352.%20Product%20of%20the%20Last%20K%20Numbers)
 - [1578. Minimum Time to Make Rope Colorful](https://github.com/Elianfm/LeetCode/tree/main/src/1578.%20Minimum%20Time%20to%20Make%20Rope%20Colorful)
+- [1631. Path With Minimum Effort](https://github.com/Elianfm/LeetCode/tree/main/src/1631.%20Path%20With%20Minimum%20Effort) 
 - [1652. Defuse the Bomb](https://github.com/Elianfm/LeetCode/tree/main/src/1652.%20Defuse%20the%20Bomb)
 - [1863. Sum of All Subset XOR Totals](https://github.com/Elianfm/LeetCode/tree/main/src/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals)
 - [1876. Substrings of Size Three with Distinct Characters](https://github.com/Elianfm/LeetCode/tree/main/src/1876.%20Substrings%20of%20Size%20Three%20with%20Distinct%20Characters)
