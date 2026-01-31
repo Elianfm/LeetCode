@@ -5,6 +5,30 @@ import java.util.List;
 import java.util.Map;
 
 public class GroupAnagrams {
+
+    // Runtime 6ms beats 99.24%
+    class Solution4 {
+        public List<List<String>> groupAnagrams(String[] strs) {
+            
+            Map<String, ArrayList<String>> map = new HashMap<>();
+
+            for(int i = 0; i<strs.length; i++){
+                String actual = strs[i];
+                char[] chars = actual.toCharArray();
+                Arrays.sort(chars);
+                String ordered = String.valueOf(chars);
+
+                ArrayList<String> ls =  map.getOrDefault(ordered, new ArrayList<>());
+                ls.add(actual);
+                map.put(ordered, ls);
+            }
+
+            List<List<String>> out = new ArrayList<>();
+            for(ArrayList<String> ls: map.values()) out.add(ls);
+            return out;
+        }
+    }
+
     /*
      * A little cleaner version
      * Runtime 6ms beats 99.26%
