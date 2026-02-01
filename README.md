@@ -106,6 +106,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [783. Minimum Distance Beetween BST Nodes](https://github.com/Elianfm/LeetCode/tree/main/src/783.%20Minimum%20Distance%20Between%20BST%20Nodes)
 - [860. Lemonade Change](https://github.com/Elianfm/LeetCode/tree/main/src/860.%20Lemonade%20Change)
 - [867. Transpose Matrix](https://github.com/Elianfm/LeetCode/tree/main/src/867.%20Transpose%20Matrix)
+- [875. Koko Eating Bananas](https://github.com/Elianfm/LeetCode/tree/main/src/875.%20Koko%20Eating%20Bananas)
 - [909. Snakes and Ladders] (pending)
 - [953. Verifying an Alien Dictionary](https://github.com/Elianfm/LeetCode/tree/main/src/953.%20Verifying%20an%20Alien%20Dictionary)
 - [981. Time Based Key-Value Store](https://github.com/Elianfm/LeetCode/tree/main/src/981.%20Time%20Based%20Key-Value%20Store)
