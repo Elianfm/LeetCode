@@ -3,7 +3,58 @@ import java.util.Map;
 
 class Trie {
 
-    // pending to do with array implementation later
+    /*
+     * Second try, using array instead of map
+     * Runtime: 35ms beats 48.88%
+     */
+    class Trie2 {
+        MyNode root = new MyNode();
+
+        public Trie2() {
+            
+        }
+        
+        public void insert(String word) {
+            MyNode current = root;
+            
+            for(int i = 0; i<word.length(); i++){
+                int idx = word.charAt(i) - 'a';
+                if(current.next[idx] == null) current.next[idx] = new MyNode();
+                current = current.next[idx];
+            }
+
+            current.isLast = true;
+        }
+        
+        public boolean search(String word) {
+            MyNode current = root;
+            
+            for(int i = 0; i<word.length(); i++){
+                int idx = word.charAt(i) - 'a';
+                if(current.next[idx] == null) return false;
+                current = current.next[idx];
+            }
+
+            return current.isLast;
+        }
+        
+        public boolean startsWith(String prefix) {
+            MyNode current = root;
+            
+            for(int i = 0; i<prefix.length(); i++){
+                int idx = prefix.charAt(i) - 'a';
+                if(current.next[idx] == null) return false;
+                current = current.next[idx];
+            }
+
+            return true;
+        }
+
+        public class MyNode{
+            MyNode[] next = new MyNode[26];
+            boolean isLast = false;
+        }
+    }
 
     /*
      * First try, brute force, why not? brrrr
