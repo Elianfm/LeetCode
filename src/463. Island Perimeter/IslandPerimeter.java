@@ -1,15 +1,38 @@
 class IslandPerimeter {
 
-    /*
-     * PENDING TRY With normal iteration
-     */
 
+    
     /*
-     * First try using DFS
-     * Runtime: 7ms Beats 30.38%
-     * Memory: 46.12MB Beats 23.84%
+     * Second try, simpler approach
+     * Iterate through the grid, when I find a land cell (1)
+     * I check its four sides, if it's on the border of the grid
+     * or if the adjacent cell is water (0) I add one to the perimeter.
+     * 
+     * Runtime: 4ms beats 99.81%
      */
+    class Solution2 {
+        public int islandPerimeter(int[][] grid) {
 
+            int perimeter = 0;
+            
+            for(int i = 0; i<grid.length; i++){
+                for(int j = 0; j<grid[0].length; j++){
+                    int actual = grid[i][j];
+                    if(actual == 1){
+                        if(i == 0 || grid[i-1][j] == 0) perimeter++;
+                        if(j == 0 || grid[i][j-1] == 0) perimeter++;
+
+                        if(i == grid.length-1 || grid[i+1][j] == 0) perimeter++;
+                        if(j == grid[0].length-1 || grid[i][j+1] == 0) perimeter++;
+                    }
+                }
+            }
+
+            return perimeter;
+        }
+    }
+
+    class Solution {
      int[][] grid;
      int rows;
      int columns;
@@ -48,4 +71,5 @@ class IslandPerimeter {
  
          return perimeter;
      }
+    }
 }
