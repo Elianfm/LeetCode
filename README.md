@@ -22,6 +22,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [49. Group Anagrams](https://github.com/Elianfm/LeetCode/tree/main/src/49.%20Group%20Anagrams) 
 - [54. SpiralMatrix](https://github.com/Elianfm/LeetCode/tree/main/src/54.%20Spiral%20Matrix)
 - [56. Merge Intervals] (pending)
+- [57. Insert Interval](https://github.com/Elianfm/LeetCode/tree/main/src/57.%20Insert%20Interval)
 - [62. Unique Paths](https://github.com/Elianfm/LeetCode/tree/main/src/62.%20Unique%20Paths)
 - [66. Plus One](https://github.com/Elianfm/LeetCode/tree/main/src/66.%20Plus%20One)
 - [67. Add Binary](https://github.com/Elianfm/LeetCode/tree/main/src/67.%20Add%20Binary)
