@@ -10,7 +10,7 @@ public class KClosestPointsOrigin {
     * the distances.
     * Runtime: 28ms beats 69.17%
     */
-    class Solution {
+    class Solution2 {
     public int[][] kClosest(int[][] points, int k) {
         PriorityQueue<MyNode> pq 
             = new PriorityQueue<>( (a,b) -> Integer.compare(b.sum, a.sum));
