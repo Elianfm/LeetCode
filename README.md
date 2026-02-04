@@ -63,6 +63,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [189. Rotate Array](https://github.com/Elianfm/LeetCode/tree/main/src/189.%20Rotate%20Array)
 - [190. Reverse Bits](https://github.com/Elianfm/LeetCode/tree/main/src/190.%20Reverse%20Bits)
 - [191. Number of 1 Bits](https://github.com/Elianfm/LeetCode/tree/main/src/191.%20Number%20of%201%20Bits)
+- [198. House Robber](https://github.com/Elianfm/LeetCode/tree/main/src/198.%20House%20Robber)
 - [202. Happy Number](https://github.com/Elianfm/LeetCode/tree/main/src/202.%20Happy%20Number)
 - [200. Number of Islands](https://github.com/Elianfm/LeetCode/tree/main/src/200.%20Number%20of%20Islands)
 - [205. Isomorphic String](https://github.com/Elianfm/LeetCode/tree/main/src/205.%20Isomorphic%20String)
