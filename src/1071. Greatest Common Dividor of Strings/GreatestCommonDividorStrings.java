@@ -1,6 +1,28 @@
 public class GreatestCommonDividorStrings {
 
-    // pending to solve with euclidean algorithm
+    /*
+     * Second try, euclidian algorithm, i found this approach in the discussion,
+     * so after some days after the first try, i decided to give it a try, and it worked.
+     * 
+     * Runtime: 1ms beats 91.51%
+     */
+    class Solution3 {
+        public String gcdOfStrings(String str1, String str2) {
+            String str3 = str1 + str2;
+            String str4 = str2 + str1;
+            if(!str3.equals(str4)) return "";
+
+            int common = euclidian(str1.length(), str2.length());
+            return str3.substring(0,common);
+        }
+
+
+        private int euclidian(int s1, int s2){
+            int mod = s1 % s2;
+            return (mod == 0) ? s2 : euclidian(s2, mod);
+        }
+
+    }
 
     /*
      * First try, after a lot of failed submissions, i got this approach.
