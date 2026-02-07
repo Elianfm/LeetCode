@@ -2,7 +2,55 @@ import java.util.ArrayDeque;
 
 public class ReorderList {
 
-    // pending try to do it in O(1) space and optimize runtime, with pointers
+    /*
+     * Second try, i find the middle of the list, reverse the second half and then merge both lists.
+     * 
+     * Runtime 2ms beats 89.03%
+     */
+    class Solution2 {
+        public void reorderList(ListNode head) {
+
+            ListNode slow = head; 
+            ListNode fast = head.next;
+
+            while(fast != null && fast.next != null){
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+
+            ListNode reverse = reverse(slow.next);
+            slow.next = null;
+
+            ListNode first = head;
+
+
+            while(reverse != null){
+                ListNode nextFirst = first.next;
+                ListNode nextReverse = reverse.next;
+                first.next = reverse;
+                reverse.next = nextFirst;
+
+                first = nextFirst;
+                reverse = nextReverse;
+            }
+
+        }
+
+
+        private ListNode reverse(ListNode head){
+            ListNode prev = null;
+            ListNode next = head;
+
+            while(next != null){
+                ListNode temp = next.next;
+                next.next = prev;
+                prev = next;
+                next = temp;
+            }
+
+            return prev;
+        }
+    }
 
     /*
      * First try, i thought i could use a ArrayDeque to store the nodes,
