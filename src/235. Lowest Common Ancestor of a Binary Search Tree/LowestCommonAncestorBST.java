@@ -1,6 +1,23 @@
 public class LowestCommonAncestorBST {
 
-    // pending solve it with BST properties duh 
+    /*
+     * Second try, using BST properties
+     * 
+     * Runtime: 6ms beats 97.09%
+     */
+
+    class Solution2 {
+        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+            if(root == null) return null;
+
+            if((root.val <= p.val && root.val >= q.val)
+                || (root.val >= p.val && root.val <= q.val)) return root;
+
+            return (root.val < p.val) 
+                ? lowestCommonAncestor(root.right, p, q)
+                : lowestCommonAncestor(root.left, p, q);
+        }
+    }
 
     /*
      * First try, after a headache, i solved it with a recursive approach,
