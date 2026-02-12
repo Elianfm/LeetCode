@@ -1,9 +1,42 @@
 public class SortArray {
 
 
-    // pending try with merge sort 
-    // pending try with quick sort
-    // pending try with heap sort
+    /*
+     * Second try, merge sort, i divide the array in two till i have arrays of size 1
+     * then i merge them with two pointers one for each array and repeat
+     * 
+     * Runtime 25ms beats 69.15%
+     */
+
+    class Solution2 {
+        public int[] sortArray(int[] nums) {
+            return merge(nums, 0, nums.length-1);
+        }
+
+        private int[] merge(int[] nums, int left, int right){
+            if(left == right) return (new int[]{nums[left]});
+
+            int mid = (left+right)/2;
+
+            int[] l = merge(nums, left, mid);
+            int[] r = merge(nums,mid+1, right);
+
+            int[] res = new int[l.length + r.length];
+
+            int posL = 0;
+            int posR = 0;
+            int posRes = 0;
+
+            while(posRes < res.length){
+                res[posRes++] = 
+                    ((posL == l.length) || (posR < r.length && r[posR] < l[posL])) 
+                    ? r[posR++]
+                    : l[posL++];
+            }
+
+            return res;
+        }
+    }
 
     /*
      * First try, insert sort, why not? brbrbrbr (intuitive)
