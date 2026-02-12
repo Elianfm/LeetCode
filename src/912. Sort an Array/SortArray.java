@@ -3,8 +3,8 @@ public class SortArray {
 
     /*
      * Second try, merge sort or similar (i saw a GIF and tried to implement it)
-     *  i divide the array in two till i have arrays of size 1
-     * then i merge them with two pointers one for each array and repeat
+     * i divide the array in two till i have arrays of size 1
+     * then i merge them with three pointers one for each array and repeat
      * 
      * Runtime 25ms beats 69.15%
      */
