@@ -5,6 +5,58 @@ import java.util.List;
 public class ThreeSum {
 
     /*
+     * Another try 
+     * 
+     * Runtime 27ms beats 98.35%
+     */
+    class Solution2 {
+        public List<List<Integer>> threeSum(int[] nums) {
+            List<List<Integer>> res = new ArrayList<>();
+
+            Arrays.sort(nums);
+
+            for(int i = 0; i<nums.length-2; i++){
+                int idxLeft = i+1;
+                int idxRight = nums.length-1;
+
+                int actual = nums[i];
+
+                if(actual > 0) break;
+                if(i > 0 && nums[i-1] == actual) continue;
+
+                while(idxLeft < idxRight){
+                    int left = nums[idxLeft];
+                    int right = nums[idxRight]; 
+                    int sum = actual + left + right;
+                    if(sum == 0){
+                        res.add(Arrays.asList(actual,left,right));
+
+                        idxLeft++;
+                        idxRight--;
+
+                        while(idxLeft < idxRight && nums[idxLeft] == nums[idxLeft-1])
+                            idxLeft++;
+
+                        while(idxLeft < idxRight && nums[idxRight] == nums[idxRight+1])
+                            idxRight--;
+
+                    } else if(sum < 0){
+                        idxLeft++;
+                    }else{
+                        idxRight--;
+                    }
+                }
+
+            }
+
+            return res;
+
+        }
+    }
+
+
+
+    /*
      * Second try, after some wrong attempts, i used the two pointers method to
      * solve this problem.
      * 
