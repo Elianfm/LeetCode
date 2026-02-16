@@ -1,5 +1,42 @@
-/* PENDING TO IMPROVE */
 class NumberOfIslands {
+
+    /*
+     * Second try, similar, a bit cleaner
+     * Runtime: 2ms beats 99.78%
+     */
+    class Solution {
+        int rowLen;
+        int colLen;
+
+        public int numIslands(char[][] grid) {
+            rowLen = grid.length;
+            colLen = grid[0].length;
+            int count = 0;
+
+            for(int i = 0; i<rowLen; i++){
+                for(int j = 0; j<colLen; j++){
+                    if(grid[i][j] == '1'){
+                        explore(grid, i, j);
+                        count++;
+                    }
+                }
+            }
+
+            return count;
+        }
+
+        private void explore(char[][] grid, int row, int col){
+            if(row >= rowLen || col >= colLen || row < 0 || col < 0 ||
+                grid[row][col] == '0') return;
+
+            grid[row][col] = '0';
+
+            explore(grid, row+1, col);
+            explore(grid, row, col+1);
+            explore(grid, row-1, col);
+            explore(grid, row, col-1);
+        }
+    }
 
     /*
      * First try, i just explored the grid and when i found a 1,
