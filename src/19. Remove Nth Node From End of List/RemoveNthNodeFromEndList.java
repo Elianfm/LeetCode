@@ -1,6 +1,31 @@
 public class RemoveNthNodeFromEndList {
 
-    // Pending to try O(1n) instead of O(2n) solution
+    /*
+     * Second try, two pointers approach, one pointer is n steps ahead of the other, 
+     * when the first pointer reaches the end, the second pointer will be at the target node
+     * In my first try i had to double iterate the listnode, but in this approach we can do it in one pass
+     * 
+     * Runtime 0ms beats 100%
+     */
+    class Solution2 {
+        public ListNode removeNthFromEnd(ListNode head, int n) {
+            ListNode fast = head;
+            ListNode slow = head;
+
+            while(n-- > 0)
+                fast = fast.next;
+
+            if(fast == null) return head.next;
+
+            while(fast.next != null){
+                fast = fast.next;
+                slow = slow.next;
+            }
+
+            slow.next = slow.next.next;
+            return head;
+        }
+    }
 
     /*
      * First try, after some tweaks i got this solution
