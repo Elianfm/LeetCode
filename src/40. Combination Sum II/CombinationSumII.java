@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class CombinationSumII {
 
 
@@ -11,7 +15,7 @@ public class CombinationSumII {
      * 
      * Runtime 6ms beats 73.22%
      */
-    class Solution {
+    class Solution2 {
         List<List<Integer>> sums = new ArrayList<>();
         List<Integer> ls = new ArrayList<>();
 
