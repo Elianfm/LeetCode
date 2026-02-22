@@ -16,10 +16,9 @@ public class PathMinimumEffort {
             this.heights = heights;
             this.costs = new int[heights.length][heights[0].length];
             next.offer(new MyNode(0,0,0));
-            costs[0][0] = 0;
             
-            for(int i = 0; i<heights.length; i++) 
-                Arrays.fill(costs[i], Integer.MAX_VALUE);
+            for(int i = 0; i<heights.length; i++) Arrays.fill(costs[i], Integer.MAX_VALUE);
+            costs[0][0] = 0;
 
             while(true){
                 MyNode n = next.poll();
@@ -34,9 +33,7 @@ public class PathMinimumEffort {
         }
 
         private void explore(MyNode n, int row, int col){
-            int cellCost = Math.max(n.cost,
-                    Math.abs(heights[row][col] - heights[n.row][n.col]));
-
+            int cellCost = Math.max(n.cost, Math.abs(heights[row][col] - heights[n.row][n.col]));
             if(cellCost < costs[row][col]){
                 next.offer(new MyNode(row, col, cellCost));
                 costs[row][col] = cellCost;
@@ -55,7 +52,6 @@ public class PathMinimumEffort {
             }
         }
     }
-
 
     /*
      * Third try, Dijkstra algorithm, faster
