@@ -5,6 +5,43 @@ import java.util.Set;
 
 public class LongestRepeatinCharacterReplacement {
 
+
+    /*
+     * Second try, sliding window, it was a little confusing at first,
+     * but once i understood the logic, it was easy to implement, the idea is to keep track of the most frequent 
+     * character in the window, and if the window size is greater than the most frequent character plus k, 
+     * then we need to shrink the window from the left.
+     * 
+     * Runtime 7ms beats 88.61%
+     * 
+     */
+    class Solution {
+    public int characterReplacement(String s, int k) {
+        int[] window = new int[26];
+
+        int left = 0;
+        int maxWindow = 0;
+
+        int max = 0;
+        for(int i = 0; i<s.length(); i++){
+            int posActual = s.charAt(i) - 'A';
+            window[posActual]++;
+            maxWindow = Math.max(maxWindow, window[posActual]);
+
+            while(i - left + 1 > maxWindow + k){ // for some reason while is faster than if
+                int posLeft = s.charAt(left++) - 'A';
+                window[posLeft]--;
+            }
+
+            max = Math.max(max, i - left + 1);
+            
+        }
+
+        return max;
+    }
+}
+
+
     /*
      * First try, i use a set to store all the characters in the string, then i
      * use a queue to store the index of the characters that are not equal to the
