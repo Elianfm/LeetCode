@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.PriorityQueue;
+
 public class MeetingRoomsII {
 
     // first try was O(n^2) because of the two priority queues, but we can do it in O(nlogn)
@@ -41,5 +44,13 @@ public class MeetingRoomsII {
             return days;
             
         }
+    }
+
+    public class Interval {
+        int start;
+        int end;
+
+        Interval() { start = 0; end = 0; }
+        Interval(int s, int e) { start = s; end = e; }
     }
 }
