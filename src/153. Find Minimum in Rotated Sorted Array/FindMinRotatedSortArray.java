@@ -1,5 +1,28 @@
-// PENDING TO REFACTOR
 public class FindMinRotatedSortArray {
+    /*
+     * Second try, a bit cleaner 
+     * Runtime: 0ms beats 100%
+     */
+    class Solution2 {
+
+        public int findMin(int[] nums) {
+            return explore(nums,0,nums.length-1);
+        }
+
+        private int explore(int[] nums, int left, int right){
+            if(left > right) return Integer.MAX_VALUE;
+
+            int midNum = (left+right)/2;
+            int mid = nums[midNum];
+            int rightNum = nums[right];
+
+            return (rightNum < mid) 
+                ? explore(nums,midNum+1, right)
+                : Math.min(mid,explore(nums,left, midNum-1));
+
+        }
+    }
+
     /*
      * First try, i use binary search to find the minimum number in the rotated sorted array.
      * The idea is to find the mid number and check if the next number is smaller than the mid number.
