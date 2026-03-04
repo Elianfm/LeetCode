@@ -2,6 +2,45 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PermutationInString {
+
+    /*
+     * Second try, using sliding window and a fixed size array of 26 elements to store the number of characters in s1 and s2.
+     * First we fill the array with the number of characters in s1, then we fill the first window of s2 and check if the array is all zeros.
+     * (If its all zeros, it means that the first window of s2 is a permutation of s1). Then we move the window to the right and update 
+     * the array accordingly until we find a window that is a permutation of s1 or we reach the end of s2.
+     * 
+     * Runtime: 4ms beats 99.54%
+     */
+    class Solution2 {
+        public boolean checkInclusion(String s1, String s2) {
+            int len1 = s1.length();
+            int len2 = s2.length();
+            if(len1 > len2) return false;
+
+            int[] letters = new int[26];
+
+            for(int i = 0; i<len1; i++)
+                letters[s1.charAt(i) - 'a']++;
+            
+            for(int i = 0; i<len1; i++)
+                letters[s2.charAt(i) - 'a']--;
+        
+            if(allZeros(letters)) return true;
+            for(int i = len1; i<len2; i++){
+                letters[s2.charAt(i) - 'a']--;
+                letters[s2.charAt(i-len1) - 'a']++;
+                if(allZeros(letters)) return true;
+            }
+
+            return false;
+        }
+
+        private boolean allZeros(int[] letters){
+            for(int i: letters) if(i != 0) return false;
+            return true;
+        }
+    }
+
     /*
      * First try, using a hashmap to store the number of characters in s1 and s2.
      * Then, we remove the characters from s2 that are in s1 til the hashmap is empty.
