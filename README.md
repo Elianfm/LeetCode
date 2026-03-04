@@ -4,6 +4,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 
 # List of solved problems
 - [1. Two Sum](https://github.com/Elianfm/LeetCode/tree/main/src/1.%20Two%20Sum)
+- [2. Add Two Numbers](https://github.com/Elianfm/LeetCode/tree/main/src/2.%20Add%20Two%20Numbers)
 - [3. Longest Substring Without Repeating Character](https://github.com/Elianfm/LeetCode/tree/main/src/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
 - [5. Longest Palindromic Substring](https://github.com/Elianfm/LeetCode/tree/main/src/5.%20Longest%20Palindromic%20Substring)
 - [7. Reverse Integer](https://github.com/Elianfm/LeetCode/tree/main/src/7.%20Reverse%20Integer)
@@ -12,6 +13,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [13. Roman to Integer](https://github.com/Elianfm/LeetCode/tree/main/src/13.%20Roman%20to%20Integer)
 - [14. Longest Common Prefix](https://github.com/Elianfm/LeetCode/tree/main/src/14.%20Longest%20Common%20Prefix)
 - [15. 3Sum](https://github.com/Elianfm/LeetCode/tree/main/src/15.%203Sum)
+- [18. 4Sum](https://github.com/Elianfm/LeetCode/tree/main/src/18.%204Sum)
 - [19. Remove Nth Node From End of List](https://github.com/Elianfm/LeetCode/tree/main/src/19.%20Remove%20Nth%20Node%20From%20End%20of%20List)
 - [20. Valid Parentheses](https://github.com/Elianfm/LeetCode/tree/main/src/20.%20Valid%20Parentheses)
 - [21. Merge Two Sorted Lists](https://github.com/Elianfm/LeetCode/tree/main/src/21.%20Merge%20Two%20Sorted%20Lists)
@@ -37,6 +39,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [69. Sqrt(x)](https://github.com/Elianfm/LeetCode/tree/main/src/69.%20Sqrt(x))
 - [70. Climbing Stairs](https://github.com/Elianfm/LeetCode/tree/main/src/70.%20Climbing%20Stairs)
 - [74. Search a 2D Matrix](https://github.com/Elianfm/LeetCode/tree/main/src/74.%20Search%20a%202D%20Matrix)
+- [75. Sort Colors](https://github.com/Elianfm/LeetCode/tree/main/src/75.%20Sort%20Colors)
 - [77. Combinations](https://github.com/Elianfm/LeetCode/tree/main/src/77.%20Combinations)
 - [78. Subsets](https://github.com/Elianfm/LeetCode/tree/main/src/78.%20Subsets)
 - [79. Word Search](https://github.com/Elianfm/LeetCode/tree/main/src/79.%20Word%20Search)
@@ -100,6 +103,7 @@ Personal repository for storing my progress on LeetCode problems. WIP
 - [253. Meeting Rooms II](https://github.com/Elianfm/LeetCode/tree/main/src/253.%20Meeting%20Rooms%20II)
 - [268. Missing Number](https://github.com/Elianfm/LeetCode/tree/main/src/268.%20Missing%20Number)
 - [283. Move Zeroes](https://github.com/Elianfm/LeetCode/tree/main/src/283.%20Move%20Zeros)
+- [287. Find the Duplicate Number](https://github.com/Elianfm/LeetCode/tree/main/src/287.%20Find%20the%20Duplicate%20Number)
 - [290. Word Pattern](https://github.com/Elianfm/LeetCode/tree/main/src/290.%20Word%20Pattern)
 - [338. Counting Bits](https://github.com/Elianfm/LeetCode/tree/main/src/338.%20Counting%20Bits)
 - [355. Design Twitter](https://github.com/Elianfm/LeetCode/tree/main/src/355.%20Design%20Twitter)
