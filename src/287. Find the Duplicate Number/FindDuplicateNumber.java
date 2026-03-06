@@ -7,7 +7,7 @@ public class FindDuplicateNumber {
      * O(n^2) time complexity, O(1) space complexity.
      * Runtime: TLE lol
      */
-    class Solution {
+    class Solution2 {
         public int findDuplicate(int[] nums) {
             for(int i = 0; i<nums.length; i++){
                 int actual = nums[i];
