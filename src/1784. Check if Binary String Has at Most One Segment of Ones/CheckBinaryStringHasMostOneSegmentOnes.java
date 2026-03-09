@@ -5,7 +5,7 @@ public class CheckBinaryStringHasMostOneSegmentOnes {
      * Cleaner solution, without casting the char to int
      * Runtime 0ms beats 100%
      */
-    class Solution {
+    class Solution2 {
         public boolean checkOnesSegment(String s) {
             for(int i = 1; i<s.length(); i++)
                 if(s.charAt(i-1) == '0' && s.charAt(i)  == '1') return false;
